@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivityResult">
-        <activity android:name=".StateListActivity"></activity>
+        <activity android:name=".StateListActivity"
+            android:label="@string/label_select_state">
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
